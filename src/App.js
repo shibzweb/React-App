@@ -7,9 +7,11 @@ function App() {
 
   return(
     <div>
-<Contact/>
+<Contact st={{color:"red"}} id={{name:"shibili" ,age:22}} name="teacher" />
 <p>breaking line</p>
-<Contact/>
+<Contact st={{color:"green"}} id={{name:"sanjay" ,age:23}} name="student" />
+<p>breaking line</p>
+<Contact st={{color:"yellow"}} id={["shibili","sanjay"]} name="Array passing in props" />
     </div>
 
   )
