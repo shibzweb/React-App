@@ -5,6 +5,8 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Counter from './Counter' ;
 import Counternew from './Counternew'
+import Demo from './Demo'
+import Demonew from './Demonew'
 
 
 // var x=setInterval(()=>{
@@ -20,7 +22,7 @@ import Counternew from './Counternew'
 
   ReactDOM.render(
     <React.StrictMode>
-      <Counternew />
+ <Demonew/>
     </React.StrictMode>,
     document.getElementById('root')
   );
