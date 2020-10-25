@@ -7,6 +7,7 @@ import Counter from './Counter' ;
 import Counternew from './Counternew'
 import Demo from './Demo'
 import Demonew from './Demonew'
+import Demolist from './Demolist'
 
 
 // var x=setInterval(()=>{
@@ -22,7 +23,7 @@ import Demonew from './Demonew'
 
   ReactDOM.render(
     <React.StrictMode>
- <Demonew/>
+ <Demolist/>
     </React.StrictMode>,
     document.getElementById('root')
   );
